@@ -30,7 +30,7 @@ foreach ($sets['photoset'] as $set) {
 	);
 	echo "<div class='cat' id='cat_".$photo['set_id']."'><h3>".$photo['title']."</h3>"
 		."<div class='cat_image'><img src='".$f->buildPhotoURL($photo, "small")."' alt='".$photo['title']."' /></div>"
-		."<p>".$photo['description']."</p><a class='more' href='gallery.php?id=".$photo['set_id']."'>看看我們的產品吧→</a></div>";
+		."<p>".$photo['description']."</p><a class='more' href='gallery.php?id=".$photo['set_id']."'>產品目錄</a></div>";
 }
 ?>
 	</div>
