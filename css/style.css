@@ -1,0 +1,161 @@
+@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+	border: 0;
+	font-size: 13px;
+}
+body {
+	background: #000 center top url('images/bg_body.jpg') no-repeat;
+	font-family: corbel, 'lucida grande', helvetica, sans-serif;
+}
+a {
+	color: #ccc;
+}
+#mother_box {
+	width: 980px;
+	margin: 0 auto;
+}
+#header {
+	width: 980px;
+	display: block;
+	float: left;
+}
+#header h1#logo {
+	color: #fff;
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: left;
+	position: relative;
+}
+#header h1 a {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 50px;
+	text-decoration: none;
+}
+#header h1 span#set_title {
+	font-size: 13px;
+	position: absolute;
+	right: 33px;
+	top: 3px;
+}
+#main {
+	width: 980px;
+	color: #fff;
+	float: left;
+}
+#main_left {
+	width: 300px;
+	display: block;
+	float: left;
+}
+#main_left img {
+	width: 300px;
+	border: solid 3px #ccc;
+}
+/* main_right */
+#main_right {
+	width: 670px;
+	margin: 0 0 0 10px;
+	float: left;
+	display: block;
+}
+ul#cat_title_links {
+	margin-bottom: 5px;
+}
+ul#cat_title_links li {
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	background: url('images/bg_cat_title670.png') no-repeat;
+}
+ul#cat_title_links li a {
+	color: #666;
+}
+#main_right #cat_box {
+	display: block;
+	float: left;
+	position: relative;
+}
+
+#cat_box .cat {
+	float: left;
+	position: relative;
+	width: 669px;
+	display: none;
+	background: #333;
+	padding: 5px 0;
+	border: solid 1px #ccc;
+}
+.cat h3 {
+	font-size: 18px;
+	line-height: 28px;
+	width: 660px;
+	margin-left: 10px;
+}
+.cat .cat_image {
+	float: left;
+}
+.cat .cat_image img {
+	width: 240px;
+	padding: 5px 10px 5px 10px;
+}
+.cat p {
+	float: left;
+	width: 399px;
+	padding: 5px 0 10px 0;
+	display: block;
+}
+.cat a.more {
+	position: absolute;
+	color: #ccc;
+	right: 3px;
+	bottom: 3px;
+}
+ul.gallery {
+	width: 100%;
+	float: left;
+}
+ul.gallery li {
+	display: inline;
+}
+ul.gallery li a img {
+	margin-right: 5px;
+}
+#main_menu {
+	display: none;
+	width: 300px;
+}
+#main_menu li a {
+	display: block;
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: none;
+	width: 304px;
+	color: #fff;
+	text-align: center;
+	padding: 4px 0;
+	border: solid 1px #ccc;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+#main_menu li a:hover {
+	background: #666;
+}
+#footer {
+	float: left;
+	margin-top: 10px;
+	border-top: solid 1px #ccc;
+	display: block;
+	width: 980px;
+	text-align: center;
+	color: #ccc;
+	line-height: 25px;
+}
+.clear {
+	clear: both;
+	height: 0;
+}
