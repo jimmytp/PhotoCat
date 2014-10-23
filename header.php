@@ -13,6 +13,6 @@
 <body>
 <div id="mother_box">
 	<div id="header">
-		<h1 id="logo"><a href="index.php">上禾友</a><span id="set_title"><?=$set_title?></span></h1>
+		<h1 id="logo"><a href="index.php">***</a><span id="set_title"><?=$set_title?></span></h1>
 	</div>
 	<div id="main">
